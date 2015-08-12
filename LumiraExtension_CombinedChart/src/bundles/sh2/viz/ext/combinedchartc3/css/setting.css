@@ -1,0 +1,31 @@
+.c3-line{
+	stroke-width : 2;
+	z-index: 6
+}
+.c3-area{
+	opacity: 0.8 !important;
+	z-index : 0
+}
+.c3-bar{
+	opacity: 0.8 !important;
+	z-index: 3
+}
+
+.c3-texts{
+	font-size: 18px;
+}
+
+.v-m-main{
+	width: 	100% !important;
+	height: 	100% !important;
+	left: 		0px !important;
+	top: 		0px !important
+}
+
+.v-m-plot{
+	width: 	100% !important;
+	height: 	100% !important;
+	left: 		0px !important;
+	top: 		0px !important;
+	max-height: 100% !important;
+}
