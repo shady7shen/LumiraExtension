@@ -205,7 +205,7 @@ define("js/chartCreator", ["otherJS/d3v3","otherJS/c3"], function (d3,c3) {
 			}
 			
 			var chart = c3.generate(chartOptions);
-			d3.selectAll(".c3-shapes").sort(function (a, b) {
+			d3.select(chartArea[0])selectAll(".c3-shapes").sort(function (a, b) {
 				if (z_order[a.id] < z_order[b.id])
 					return -1;
 				else
